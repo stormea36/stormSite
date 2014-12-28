@@ -1,3 +1,7 @@
+<?php
+$local = $_SERVER['DOCUMENT_ROOT'];
+include_once($local);
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,8 +10,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="css/main.css" />
-        <link type="text/css" rel="stylesheet" href="css/clouds.css" />
+        <link type="text/css" rel="stylesheet" href="../css/main.css" />
+        <link type="text/css" rel="stylesheet" href="../css/clouds.css" />
         <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600italic|Rancho' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Montserrat|Raleway:600,400' rel='stylesheet' type='text/css'>
         <style>
@@ -36,7 +40,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php">Storm Media</a>
+                    <a class="navbar-brand" href="/index.php">Storm Media</a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->

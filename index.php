@@ -1,7 +1,46 @@
 <?php
-//pull the main layout
- require_once("header.php")
+$path = $_SERVER['DOCUMENT_ROOT'];
+$path .= "/components/header.php";
+include_once($path);
 ?>
+<style>
+            html {
+                background: url(/images/coffee_wall.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+            body {
+                background-color: transparent;
+            }
+            .page-header {
+                border: none;
+            }
+            .page-header h1 {
+                color: #c7254e;
+                font-family: 'Rancho', cursive;
+                font-size: 90px;
+            }
+        </style>
+
+        
+        <div class="container">
+            <div class="row">
+                
+                <div class="trans_box jumbotron">
+                    <div class="page-header">
+                        <h1 style="">Welcome to Full Screen</h1>
+                    </div>
+                    <div>
+                        <p>It is an age of new subjects to talk about, new items to discuss, and difficult times to face.
+                        We can face them, together as a team and with respect for each opinion, or we may crumble under our
+                        structure of indifference and refuse to acknowledge each others beliefs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
             <div class='row'>
                 <div class='col-lg-12'>
@@ -45,8 +84,8 @@
                                 Significant barriers will be erected, but with determination and dedication to supporting what is
                                 <em>right</em>, not what is profitable, will we be able to succeed.</p>
                             <h3>Examples of my work</h3>
-                            <p><a href="landingPageEx.php">Full page photo</a></p>
-                            <p><a href="clouds.php">Clouds CSS3</a></p>
+                            <p><a href="components/landingPageEx.php">Full page photo</a></p>
+                            <p><a href="components/clouds.php">Clouds CSS3</a></p>
                         </div>
                     </div>
                 </div>
@@ -64,6 +103,7 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
 <?php
-//pull the main layout
- require_once("footer.php");
+$path = $_SERVER['DOCUMENT_ROOT'];
+$path .= "/components/footer.php";
+include_once($path);
 ?>

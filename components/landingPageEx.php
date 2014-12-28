@@ -1,6 +1,7 @@
 <?php
-//pull the main layout
- require_once("header.php");
+$path = $_SERVER['DOCUMENT_ROOT'];
+$path .= "/components/header.php";
+include_once($path);
 ?>
 <style>
             html {
@@ -41,6 +42,7 @@
         </div>
 
 <?php
-//pull the main layout
- require_once("footer.php");
+$path = $_SERVER['DOCUMENT_ROOT'];
+$path .= "/components/footer.php";
+include_once($path);
 ?>
