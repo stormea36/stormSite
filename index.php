@@ -23,14 +23,19 @@ require_once($path);
                 font-size: 90px;
             }
         </style>
-
+        <div class='row'>
+            <div class='col-lg-12'>
+                
+            </div>
+        </div>
             <div class='row'>
                 <div class='col-lg-12'>
                     
                     <div class="jumbotron">
+                        
                         <span>
                             <img src="images/storm_avatar.jpeg" width="200px" alt="storm" style="float: left; margin-right: 20px;" />
-                            <h1>Hello World, I am <em>Storm</em></h1>
+                            <h1 class='page-header'>Hello World, I am <em>Storm</em></h1>
                             <p>
                                 That is my name and I am here to change the world.  Follow
                                 me to see how we can make this world a better place, together.
@@ -77,10 +82,7 @@ require_once($path);
         </div>
         
         
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="//code.jquery.com/jquery.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
+
 <?php
 $path = $_SERVER['DOCUMENT_ROOT'];
 $path .= "/components/footer.php";
