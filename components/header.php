@@ -1,7 +1,3 @@
-<?php
-$local = $_SERVER['DOCUMENT_ROOT'];
-include_once($local);
-?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -52,7 +48,7 @@ include_once($local);
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Examples <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="components/components/clouds.php">Action</a></li>
+                                <li><a href="/clouds.php">Action</a></li>
                                 <li><a href="#">Another action</a></li>
                                 <li><a href="#">Something else here</a></li>
                                 <li><a href="#">Separated link</a></li>

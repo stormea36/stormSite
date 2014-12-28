@@ -1,6 +1,7 @@
 <?php
-//pull the main layout
-require_once("header.php");
+$path = $_SERVER['DOCUMENT_ROOT'];
+$path .= "/components/header.php";
+require_once($path);
 ?>
 
 <div id='viewport'> 

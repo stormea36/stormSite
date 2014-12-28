@@ -1,7 +1,7 @@
 <?php
 $path = $_SERVER['DOCUMENT_ROOT'];
 $path .= "/components/header.php";
-include_once($path);
+require_once($path);
 ?>
 <style>
             html {
@@ -24,34 +24,13 @@ include_once($path);
             }
         </style>
 
-        
-        <div class="container">
-            <div class="row">
-                
-                <div class="trans_box jumbotron">
-                    <div class="page-header">
-                        <h1 style="">Welcome to Full Screen</h1>
-                    </div>
-                    <div>
-                        <p>It is an age of new subjects to talk about, new items to discuss, and difficult times to face.
-                        We can face them, together as a team and with respect for each opinion, or we may crumble under our
-                        structure of indifference and refuse to acknowledge each others beliefs.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
             <div class='row'>
                 <div class='col-lg-12'>
-                    <div class='page-header'>
-                        <h1>Hello World, I am <em>Storm</em></h1>
-                    </div>
-
+                    
                     <div class="jumbotron">
                         <span>
                             <img src="images/storm_avatar.jpeg" width="200px" alt="storm" style="float: left; margin-right: 20px;" />
-                            <h1>Storm Anderson</h1>
+                            <h1>Hello World, I am <em>Storm</em></h1>
                             <p>
                                 That is my name and I am here to change the world.  Follow
                                 me to see how we can make this world a better place, together.
@@ -105,5 +84,5 @@ include_once($path);
 <?php
 $path = $_SERVER['DOCUMENT_ROOT'];
 $path .= "/components/footer.php";
-include_once($path);
+require_once($path);
 ?>
