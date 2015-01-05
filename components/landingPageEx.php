@@ -30,7 +30,7 @@ require_once($path);
                 
                 <div class="trans_box jumbotron">
                     <div class="page-header">
-                        <h1 style="">Welcome to Full Screen, <em style="color:white;">Bitch</em></h1>
+                        <h1 style="">Welcome to Full Screen!</h1>
                     </div>
                     <div>
                         <p>It is an age of new subjects to talk about, new items to discuss, and difficult times to face.
